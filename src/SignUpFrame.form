@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="lbl_Signup" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+              <Component id="btn_Signup" min="-2" pref="111" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btn_Exit" min="-2" pref="100" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane2" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txt_Cap" min="-2" pref="295" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btn_Submit" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lbl_Pwcheck" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="pw_chk" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="btn_Pwcheck" min="-2" pref="102" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="lbl_Id" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                              <Component id="txt_Id" min="-2" pref="211" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btn_Idcheck" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbl_Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_Pw" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txt_Name" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Component id="lbl_pwterms" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="pw_pw" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                      <Component id="lbl_Gender" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                      <Component id="btn_M" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btn_W" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbl_Birth" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="cbx_Year" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cbx_Month" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cbx_Day" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane1" min="-2" pref="295" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btn_Reset" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="64" max="-2" attributes="0"/>
+                          <Component id="chk_sign" alignment="0" min="-2" pref="231" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lbl_Signup" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Id" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_Id" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_Idcheck" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_Name" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Pw" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pw_pw" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbl_pwterms" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Pwcheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_Pwcheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pw_chk" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_Birth" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cbx_Year" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbx_Month" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbx_Day" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Gender" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_M" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_W" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="17" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="chk_sign" min="-2" pref="21" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btn_Reset" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt_Cap" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="btn_Submit" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btn_Signup" pref="63" max="32767" attributes="0"/>
+                  <Component id="btn_Exit" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_Id">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="* &#xc544;&#xc774;&#xb514;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Name">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="* &#xc774;&#xb984;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Pw">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="* &#xbe44;&#xbc00;&#xbc88;&#xd638;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Pwcheck">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="* &#xbe44;&#xbc00;&#xbc88;&#xd638; &#xd655;&#xc778;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Idcheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc911;&#xbcf5;&#xd655;&#xc778;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_IdcheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Id">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Name">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Birth">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="* &#xc0dd;&#xb144;&#xc6d4;&#xc77c;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_Year">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="53">
+            <StringItem index="0" value="2022"/>
+            <StringItem index="1" value="2021"/>
+            <StringItem index="2" value="2020"/>
+            <StringItem index="3" value="2019"/>
+            <StringItem index="4" value="2018"/>
+            <StringItem index="5" value="2017"/>
+            <StringItem index="6" value="2016"/>
+            <StringItem index="7" value="2015"/>
+            <StringItem index="8" value="2014"/>
+            <StringItem index="9" value="2013"/>
+            <StringItem index="10" value="2012"/>
+            <StringItem index="11" value="2011"/>
+            <StringItem index="12" value="2010"/>
+            <StringItem index="13" value="2009"/>
+            <StringItem index="14" value="2008"/>
+            <StringItem index="15" value="2007"/>
+            <StringItem index="16" value="2006"/>
+            <StringItem index="17" value="2005"/>
+            <StringItem index="18" value="2004"/>
+            <StringItem index="19" value="2003"/>
+            <StringItem index="20" value="2002"/>
+            <StringItem index="21" value="2001"/>
+            <StringItem index="22" value="2000"/>
+            <StringItem index="23" value="1999"/>
+            <StringItem index="24" value="1998"/>
+            <StringItem index="25" value="1997"/>
+            <StringItem index="26" value="1996"/>
+            <StringItem index="27" value="1995"/>
+            <StringItem index="28" value="1994"/>
+            <StringItem index="29" value="1993"/>
+            <StringItem index="30" value="1992"/>
+            <StringItem index="31" value="1991"/>
+            <StringItem index="32" value="1990"/>
+            <StringItem index="33" value="1989"/>
+            <StringItem index="34" value="1988"/>
+            <StringItem index="35" value="1987"/>
+            <StringItem index="36" value="1986"/>
+            <StringItem index="37" value="1985"/>
+            <StringItem index="38" value="1984"/>
+            <StringItem index="39" value="1983"/>
+            <StringItem index="40" value="1982"/>
+            <StringItem index="41" value="1981"/>
+            <StringItem index="42" value="1980"/>
+            <StringItem index="43" value="1979"/>
+            <StringItem index="44" value="1978"/>
+            <StringItem index="45" value="1977"/>
+            <StringItem index="46" value="1976"/>
+            <StringItem index="47" value="1975"/>
+            <StringItem index="48" value="1974"/>
+            <StringItem index="49" value="1973"/>
+            <StringItem index="50" value="1972"/>
+            <StringItem index="51" value="1971"/>
+            <StringItem index="52" value="1970"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_Month">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_Day">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="31">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+            <StringItem index="4" value="5"/>
+            <StringItem index="5" value="6"/>
+            <StringItem index="6" value="7"/>
+            <StringItem index="7" value="8"/>
+            <StringItem index="8" value="9"/>
+            <StringItem index="9" value="10"/>
+            <StringItem index="10" value="11"/>
+            <StringItem index="11" value="12"/>
+            <StringItem index="12" value="13"/>
+            <StringItem index="13" value="14"/>
+            <StringItem index="14" value="15"/>
+            <StringItem index="15" value="16"/>
+            <StringItem index="16" value="17"/>
+            <StringItem index="17" value="18"/>
+            <StringItem index="18" value="19"/>
+            <StringItem index="19" value="20"/>
+            <StringItem index="20" value="21"/>
+            <StringItem index="21" value="22"/>
+            <StringItem index="22" value="23"/>
+            <StringItem index="23" value="24"/>
+            <StringItem index="24" value="25"/>
+            <StringItem index="25" value="26"/>
+            <StringItem index="26" value="27"/>
+            <StringItem index="27" value="28"/>
+            <StringItem index="28" value="29"/>
+            <StringItem index="29" value="30"/>
+            <StringItem index="30" value="31"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Gender">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xc131;&#xbcc4;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="btn_M">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xb0a8;&#xc131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="btn_W">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc5ec;&#xc131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lbl_Signup">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xd55c;&#xcef4; &#xace0;&#xb515;" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="  &#xd68c;&#xc6d0;&#xac00;&#xc785;"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[71, 40]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Pwcheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xbe44;&#xbc00;&#xbc88;&#xd638;&#xd655;&#xc778;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_PwcheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbl_pwterms">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="10" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x203b; &#xc22b;&#xc790; + &#xc601;&#xbb38; &#xb300;/&#xc18c;&#xbb38;&#xc790;, &#xd2b9;&#xc218;&#xbb38;&#xc790; &#xd3ec;&#xd568; 8&#xc790; &#xc774;&#xc0c1;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Signup">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xd55c;&#xcef4; &#xace0;&#xb515;" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xac00;&#xc785;&#xc2e0;&#xccad;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_SignupActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Exit">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#xd55c;&#xcef4; &#xace0;&#xb515;" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xc885;&#xb8cc;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ExitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="pw_pw">
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="pw_chk">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Cap">
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Reset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ResetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Submit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_SubmitActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xd68c;&#xc6d0;&#xac00;&#xc785; &#xc774;&#xc6a9;&#xc57d;&#xad00;&#xa;&#xa;&#xc81c;1&#xc870;(&#xbaa9;&#xc801;) &#xc774; &#xc57d;&#xad00;&#xc740; &#xc5c5;&#xccb4; &#xd68c;&#xc0ac;(&#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xc0ac;&#xc5c5;&#xc790;)&#xac00; &#xc6b4;&#xc601;&#xd558;&#xb294; &#xc5c5;&#xccb4; &#xc0ac;&#xc774;&#xbc84; &#xbab0;(&#xc774;&#xd558; &#x201c;&#xbab0;&#x201d;&#xc774;&#xb77c; &#xd55c;&#xb2e4;)&#xc5d0;&#xc11c; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xc778;&#xd130;&#xb137; &#xad00;&#xb828; &#xc11c;&#xbe44;&#xc2a4;(&#xc774;&#xd558; &#x201c;&#xc11c;&#xbe44;&#xc2a4;&#x201d;&#xb77c; &#xd55c;&#xb2e4;)&#xb97c; &#xc774;&#xc6a9;&#xd568;&#xc5d0; &#xc788;&#xc5b4; &#xc0ac;&#xc774;&#xbc84; &#xbab0;&#xacfc; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xad8c;&#xb9ac;&#x2024;&#xc758;&#xbb34; &#xbc0f; &#xcc45;&#xc784;&#xc0ac;&#xd56d;&#xc744; &#xaddc;&#xc815;&#xd568;&#xc744; &#xbaa9;&#xc801;&#xc73c;&#xb85c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x203b;&#x300c;PC&#xd1b5;&#xc2e0;, &#xbb34;&#xc120; &#xb4f1;&#xc744; &#xc774;&#xc6a9;&#xd558;&#xb294; &#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798;&#xc5d0; &#xb300;&#xd574;&#xc11c;&#xb3c4; &#xadf8; &#xc131;&#xc9c8;&#xc5d0; &#xbc18;&#xd558;&#xc9c0; &#xc54a;&#xb294; &#xd55c; &#xc774; &#xc57d;&#xad00;&#xc744; &#xc900;&#xc6a9;&#xd569;&#xb2c8;&#xb2e4;.&#x300d;&#xa; &#xa;&#xc81c;2&#xc870;(&#xc815;&#xc758;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc774;&#xb780; &#xc5c5;&#xccb4; &#xd68c;&#xc0ac;&#xac00; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;(&#xc774;&#xd558; &#x201c;&#xc7ac;&#xd654; &#xb4f1;&#x201d;&#xc774;&#xb77c; &#xd568;)&#xc744; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xc81c;&#xacf5;&#xd558;&#xae30; &#xc704;&#xd558;&#xc5ec; &#xcef4;&#xd4e8;&#xd130; &#xb4f1; &#xc815;&#xbcf4;&#xd1b5;&#xc2e0;&#xc124;&#xbe44;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xc5ec; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xac70;&#xb798;&#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xc124;&#xc815;&#xd55c; &#xac00;&#xc0c1;&#xc758; &#xc601;&#xc5c5;&#xc7a5;&#xc744; &#xb9d0;&#xd558;&#xba70;, &#xc544;&#xc6b8;&#xb7ec; &#xc0ac;&#xc774;&#xbc84;&#xbab0;&#xc744; &#xc6b4;&#xc601;&#xd558;&#xb294; &#xc0ac;&#xc5c5;&#xc790;&#xc758; &#xc758;&#xbbf8;&#xb85c;&#xb3c4; &#xc0ac;&#xc6a9;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#x201c;&#xc774;&#xc6a9;&#xc790;&#x201d;&#xb780; &#x201c;&#xbab0;&#x201d;&#xc5d0; &#xc811;&#xc18d;&#xd558;&#xc5ec; &#xc774; &#xc57d;&#xad00;&#xc5d0; &#xb530;&#xb77c; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xbc1b;&#xb294; &#xd68c;&#xc6d0; &#xbc0f; &#xbe44;&#xd68c;&#xc6d0;&#xc744; &#xb9d0;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#x2018;&#xd68c;&#xc6d0;&#x2019;&#xc774;&#xb77c; &#xd568;&#xc740; &#x201c;&#xbab0;&#x201d;&#xc5d0; &#xd68c;&#xc6d0;&#xb4f1;&#xb85d;&#xc744; &#xd55c; &#xc790;&#xb85c;&#xc11c;, &#xacc4;&#xc18d;&#xc801;&#xc73c;&#xb85c; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xc774;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xb294; &#xc790;&#xb97c; &#xb9d0;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#x2018;&#xbe44;&#xd68c;&#xc6d0;&#x2019;&#xc774;&#xb77c; &#xd568;&#xc740; &#xd68c;&#xc6d0;&#xc5d0; &#xac00;&#xc785;&#xd558;&#xc9c0; &#xc54a;&#xace0; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xb294; &#xc790;&#xb97c; &#xb9d0;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;3&#xc870; (&#xc57d;&#xad00; &#xb4f1;&#xc758; &#xba85;&#xc2dc;&#xc640; &#xc124;&#xba85; &#xbc0f; &#xac1c;&#xc815;) &#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774; &#xc57d;&#xad00;&#xc758; &#xb0b4;&#xc6a9;&#xacfc; &#xc0c1;&#xd638; &#xbc0f; &#xb300;&#xd45c;&#xc790; &#xc131;&#xba85;, &#xc601;&#xc5c5;&#xc18c; &#xc18c;&#xc7ac;&#xc9c0; &#xc8fc;&#xc18c;(&#xc18c;&#xbe44;&#xc790;&#xc758; &#xbd88;&#xb9cc;&#xc744; &#xcc98;&#xb9ac;&#xd560; &#xc218; &#xc788;&#xb294; &#xacf3;&#xc758; &#xc8fc;&#xc18c;&#xb97c; &#xd3ec;&#xd568;), &#xc804;&#xd654;&#xbc88;&#xd638;&#x2024;&#xbaa8;&#xc0ac;&#xc804;&#xc1a1;&#xbc88;&#xd638;&#x2024;&#xc804;&#xc790;&#xc6b0;&#xd3b8;&#xc8fc;&#xc18c;, &#xc0ac;&#xc5c5;&#xc790;&#xb4f1;&#xb85d;&#xbc88;&#xd638;, &#xd1b5;&#xc2e0;&#xd310;&#xb9e4;&#xc5c5; &#xc2e0;&#xace0;&#xbc88;&#xd638;, &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xad00;&#xb9ac;&#xcc45;&#xc784;&#xc790; &#xb4f1;&#xc744; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc27d;&#xac8c; &#xc54c; &#xc218; &#xc788;&#xb3c4;&#xb85d; 00 &#xc0ac;&#xc774;&#xbc84;&#xbab0;&#xc758; &#xcd08;&#xae30; &#xc11c;&#xbe44;&#xc2a4;&#xd654;&#xba74;(&#xc804;&#xba74;)&#xc5d0; &#xac8c;&#xc2dc;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xc57d;&#xad00;&#xc758; &#xb0b4;&#xc6a9;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc5f0;&#xacb0;&#xd654;&#xba74;&#xc744; &#xd1b5;&#xd558;&#xc5ec; &#xbcfc; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc57d;&#xad00;&#xc5d0; &#xb3d9;&#xc758;&#xd558;&#xae30;&#xc5d0; &#xc55e;&#xc11c; &#xc57d;&#xad00;&#xc5d0; &#xc815;&#xd558;&#xc5ec;&#xc838; &#xc788;&#xb294; &#xb0b4;&#xc6a9; &#xc911; &#xccad;&#xc57d;&#xcca0;&#xd68c;&#x2024;&#xbc30;&#xc1a1;&#xcc45;&#xc784;&#x2024;&#xd658;&#xbd88;&#xc870;&#xac74; &#xb4f1;&#xacfc; &#xac19;&#xc740; &#xc911;&#xc694;&#xd55c; &#xb0b4;&#xc6a9;&#xc744; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc774;&#xd574;&#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xbcc4;&#xb3c4;&#xc758; &#xc5f0;&#xacb0;&#xd654;&#xba74; &#xb610;&#xb294; &#xd31d;&#xc5c5;&#xd654;&#xba74; &#xb4f1;&#xc744; &#xc81c;&#xacf5;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xd655;&#xc778;&#xc744; &#xad6c;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#x201c;&#xbab0;&#x201d;&#xc740; &#x300c;&#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xb4f1;&#xc5d0;&#xc11c;&#xc758; &#xc18c;&#xbe44;&#xc790;&#xbcf4;&#xd638;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d;, &#x300c;&#xc57d;&#xad00;&#xc758; &#xaddc;&#xc81c;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d;, &#x300c;&#xc804;&#xc790;&#xbb38;&#xc11c; &#xbc0f; &#xc804;&#xc790;&#xac70;&#xb798;&#xae30;&#xbcf8;&#xbc95;&#x300d;, &#x300c;&#xc804;&#xc790;&#xae08;&#xc735;&#xac70;&#xb798;&#xbc95;&#x300d;, &#x300c;&#xc804;&#xc790;&#xc11c;&#xba85;&#xbc95;&#x300d;, &#x300c;&#xc815;&#xbcf4;&#xd1b5;&#xc2e0;&#xb9dd; &#xc774;&#xc6a9;&#xcd09;&#xc9c4; &#xbc0f; &#xc815;&#xbcf4;&#xbcf4;&#xd638; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d;, &#x300c;&#xbc29;&#xbb38;&#xd310;&#xb9e4; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d;, &#x300c;&#xc18c;&#xbe44;&#xc790;&#xae30;&#xbcf8;&#xbc95;&#x300d; &#xb4f1; &#xad00;&#xb828; &#xbc95;&#xc744; &#xc704;&#xbc30;&#xd558;&#xc9c0; &#xc54a;&#xb294; &#xbc94;&#xc704;&#xc5d0;&#xc11c; &#xc774; &#xc57d;&#xad00;&#xc744; &#xac1c;&#xc815;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc57d;&#xad00;&#xc744; &#xac1c;&#xc815;&#xd560; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc801;&#xc6a9;&#xc77c;&#xc790; &#xbc0f; &#xac1c;&#xc815;&#xc0ac;&#xc720;&#xb97c; &#xba85;&#xc2dc;&#xd558;&#xc5ec; &#xd604;&#xd589;&#xc57d;&#xad00;&#xacfc; &#xd568;&#xaed8; &#xbab0;&#xc758; &#xcd08;&#xae30;&#xd654;&#xba74;&#xc5d0; &#xadf8; &#xc801;&#xc6a9;&#xc77c;&#xc790; 7&#xc77c; &#xc774;&#xc804;&#xbd80;&#xd130; &#xc801;&#xc6a9;&#xc77c;&#xc790; &#xc804;&#xc77c;&#xae4c;&#xc9c0; &#xacf5;&#xc9c0;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xbd88;&#xb9ac;&#xd558;&#xac8c; &#xc57d;&#xad00;&#xb0b4;&#xc6a9;&#xc744; &#xbcc0;&#xacbd;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xcd5c;&#xc18c;&#xd55c; 30&#xc77c; &#xc774;&#xc0c1;&#xc758; &#xc0ac;&#xc804; &#xc720;&#xc608;&#xae30;&#xac04;&#xc744; &#xb450;&#xace0; &#xacf5;&#xc9c0;&#xd569;&#xb2c8;&#xb2e4;.  &#xc774; &#xacbd;&#xc6b0; &quot;&#xbab0;&#x201c;&#xc740; &#xac1c;&#xc815; &#xc804; &#xb0b4;&#xc6a9;&#xacfc; &#xac1c;&#xc815; &#xd6c4; &#xb0b4;&#xc6a9;&#xc744; &#xba85;&#xd655;&#xd558;&#xac8c; &#xbe44;&#xad50;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc54c;&#xae30; &#xc27d;&#xb3c4;&#xb85d; &#xd45c;&#xc2dc;&#xd569;&#xb2c8;&#xb2e4;. &#xa; &#xa;  &#x2464; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc57d;&#xad00;&#xc744; &#xac1c;&#xc815;&#xd560; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8; &#xac1c;&#xc815;&#xc57d;&#xad00;&#xc740; &#xadf8; &#xc801;&#xc6a9;&#xc77c;&#xc790; &#xc774;&#xd6c4;&#xc5d0; &#xccb4;&#xacb0;&#xb418;&#xb294; &#xacc4;&#xc57d;&#xc5d0;&#xb9cc; &#xc801;&#xc6a9;&#xb418;&#xace0; &#xadf8; &#xc774;&#xc804;&#xc5d0; &#xc774;&#xbbf8; &#xccb4;&#xacb0;&#xb41c; &#xacc4;&#xc57d;&#xc5d0; &#xb300;&#xd574;&#xc11c;&#xb294; &#xac1c;&#xc815; &#xc804;&#xc758; &#xc57d;&#xad00;&#xc870;&#xd56d;&#xc774; &#xadf8;&#xb300;&#xb85c; &#xc801;&#xc6a9;&#xb429;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc; &#xc774;&#xbbf8; &#xacc4;&#xc57d;&#xc744; &#xccb4;&#xacb0;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xac1c;&#xc815;&#xc57d;&#xad00; &#xc870;&#xd56d;&#xc758; &#xc801;&#xc6a9;&#xc744; &#xbc1b;&#xae30;&#xb97c; &#xc6d0;&#xd558;&#xb294; &#xb73b;&#xc744; &#xc81c;3&#xd56d;&#xc5d0; &#xc758;&#xd55c; &#xac1c;&#xc815;&#xc57d;&#xad00;&#xc758; &#xacf5;&#xc9c0;&#xae30;&#xac04; &#xb0b4;&#xc5d0; &#x201c;&#xbab0;&#x201d;&#xc5d0; &#xc1a1;&#xc2e0;&#xd558;&#xc5ec; &#x201c;&#xbab0;&#x201d;&#xc758; &#xb3d9;&#xc758;&#xb97c; &#xbc1b;&#xc740; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xac1c;&#xc815;&#xc57d;&#xad00; &#xc870;&#xd56d;&#xc774; &#xc801;&#xc6a9;&#xb429;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2465; &#xc774; &#xc57d;&#xad00;&#xc5d0;&#xc11c; &#xc815;&#xd558;&#xc9c0; &#xc544;&#xb2c8;&#xd55c; &#xc0ac;&#xd56d;&#xacfc; &#xc774; &#xc57d;&#xad00;&#xc758; &#xd574;&#xc11d;&#xc5d0; &#xad00;&#xd558;&#xc5ec;&#xb294; &#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xb4f1;&#xc5d0;&#xc11c;&#xc758; &#xc18c;&#xbe44;&#xc790;&#xbcf4;&#xd638;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;, &#xc57d;&#xad00;&#xc758; &#xaddc;&#xc81c; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;, &#xacf5;&#xc815;&#xac70;&#xb798;&#xc704;&#xc6d0;&#xd68c;&#xac00; &#xc815;&#xd558;&#xb294; &#x300c;&#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xb4f1;&#xc5d0;&#xc11c;&#xc758; &#xc18c;&#xbe44;&#xc790; &#xbcf4;&#xd638;&#xc9c0;&#xce68;&#x300d; &#xbc0f; &#xad00;&#xacc4;&#xbc95;&#xb839; &#xb610;&#xb294; &#xc0c1;&#xad00;&#xb840;&#xc5d0; &#xb530;&#xb985;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;4&#xc870;(&#xc11c;&#xbe44;&#xc2a4;&#xc758; &#xc81c;&#xacf5; &#xbc0f; &#xbcc0;&#xacbd;) &#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc5c5;&#xbb34;&#xb97c; &#xc218;&#xd589;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xbcf4; &#xc81c;&#xacf5; &#xbc0f; &#xad6c;&#xb9e4;&#xacc4;&#xc57d;&#xc758; &#xccb4;&#xacb0;&#xa;    2. &#xad6c;&#xb9e4;&#xacc4;&#xc57d;&#xc774; &#xccb4;&#xacb0;&#xb41c; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc758; &#xbc30;&#xc1a1;&#xa;    3. &#xae30;&#xd0c0; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc815;&#xd558;&#xb294; &#xc5c5;&#xbb34;&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc758; &#xd488;&#xc808; &#xb610;&#xb294; &#xae30;&#xc220;&#xc801; &#xc0ac;&#xc591;&#xc758; &#xbcc0;&#xacbd; &#xb4f1;&#xc758; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc7a5;&#xcc28; &#xccb4;&#xacb0;&#xb418;&#xb294; &#xacc4;&#xc57d;&#xc5d0; &#xc758;&#xd574; &#xc81c;&#xacf5;&#xd560; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xbcc0;&#xacbd;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xc774; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xbcc0;&#xacbd;&#xb41c; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc758; &#xb0b4;&#xc6a9; &#xbc0f; &#xc81c;&#xacf5;&#xc77c;&#xc790;&#xb97c; &#xba85;&#xc2dc;&#xd558;&#xc5ec; &#xd604;&#xc7ac;&#xc758; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xac8c;&#xc2dc;&#xd55c; &#xacf3;&#xc5d0; &#xc989;&#xc2dc; &#xacf5;&#xc9c0;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc81c;&#xacf5;&#xd558;&#xae30;&#xb85c; &#xc774;&#xc6a9;&#xc790;&#xc640; &#xacc4;&#xc57d;&#xc744; &#xccb4;&#xacb0;&#xd55c; &#xc11c;&#xbe44;&#xc2a4;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xd488;&#xc808; &#xb610;&#xb294; &#xae30;&#xc220;&#xc801; &#xc0ac;&#xc591;&#xc758; &#xbcc0;&#xacbd; &#xb4f1;&#xc758; &#xc0ac;&#xc720;&#xb85c; &#xbcc0;&#xacbd;&#xd560; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8; &#xc0ac;&#xc720;&#xb97c; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xd1b5;&#xc9c0; &#xac00;&#xb2a5;&#xd55c; &#xc8fc;&#xc18c;&#xb85c; &#xc989;&#xc2dc; &#xd1b5;&#xc9c0;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#xc804;&#xd56d;&#xc758; &#xacbd;&#xc6b0; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xb85c; &#xc778;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc785;&#xc740; &#xc190;&#xd574;&#xb97c; &#xbc30;&#xc0c1;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#x201c;&#xbab0;&#x201d;&#xc774; &#xace0;&#xc758; &#xb610;&#xb294; &#xacfc;&#xc2e4;&#xc774; &#xc5c6;&#xc74c;&#xc744; &#xc785;&#xc99d;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xb7ec;&#xd558;&#xc9c0; &#xc544;&#xb2c8;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;5&#xc870;(&#xc11c;&#xbe44;&#xc2a4;&#xc758; &#xc911;&#xb2e8;) &#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc740; &#xcef4;&#xd4e8;&#xd130; &#xb4f1; &#xc815;&#xbcf4;&#xd1b5;&#xc2e0;&#xc124;&#xbe44;&#xc758; &#xbcf4;&#xc218;&#xc810;&#xac80;&#x2024;&#xad50;&#xccb4; &#xbc0f; &#xace0;&#xc7a5;, &#xd1b5;&#xc2e0;&#xc758; &#xb450;&#xc808; &#xb4f1;&#xc758; &#xc0ac;&#xc720;&#xac00; &#xbc1c;&#xc0dd;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc11c;&#xbe44;&#xc2a4;&#xc758; &#xc81c;&#xacf5;&#xc744; &#xc77c;&#xc2dc;&#xc801;&#xc73c;&#xb85c; &#xc911;&#xb2e8;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc81c;1&#xd56d;&#xc758; &#xc0ac;&#xc720;&#xb85c; &#xc11c;&#xbe44;&#xc2a4;&#xc758; &#xc81c;&#xacf5;&#xc774; &#xc77c;&#xc2dc;&#xc801;&#xc73c;&#xb85c; &#xc911;&#xb2e8;&#xb428;&#xc73c;&#xb85c; &#xc778;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790; &#xb610;&#xb294; &#xc81c;3&#xc790;&#xac00; &#xc785;&#xc740; &#xc190;&#xd574;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#xbc30;&#xc0c1;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e8;, &#x201c;&#xbab0;&#x201d;&#xc774; &#xace0;&#xc758; &#xb610;&#xb294; &#xacfc;&#xc2e4;&#xc774; &#xc5c6;&#xc74c;&#xc744; &#xc785;&#xc99d;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xb7ec;&#xd558;&#xc9c0; &#xc544;&#xb2c8;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#xc0ac;&#xc5c5;&#xc885;&#xbaa9;&#xc758; &#xc804;&#xd658;, &#xc0ac;&#xc5c5;&#xc758; &#xd3ec;&#xae30;, &#xc5c5;&#xccb4; &#xac04;&#xc758; &#xd1b5;&#xd569; &#xb4f1;&#xc758; &#xc774;&#xc720;&#xb85c; &#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xc81c;&#xacf5;&#xd560; &#xc218; &#xc5c6;&#xac8c; &#xb418;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc81c;8&#xc870;&#xc5d0; &#xc815;&#xd55c; &#xbc29;&#xbc95;&#xc73c;&#xb85c; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xd1b5;&#xc9c0;&#xd558;&#xace0; &#xb2f9;&#xcd08; &#x201c;&#xbab0;&#x201d;&#xc5d0;&#xc11c; &#xc81c;&#xc2dc;&#xd55c; &#xc870;&#xac74;&#xc5d0; &#xb530;&#xb77c; &#xc18c;&#xbe44;&#xc790;&#xc5d0;&#xac8c; &#xbcf4;&#xc0c1;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#x201c;&#xbab0;&#x201d;&#xc774; &#xbcf4;&#xc0c1;&#xae30;&#xc900; &#xb4f1;&#xc744; &#xace0;&#xc9c0;&#xd558;&#xc9c0; &#xc544;&#xb2c8;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc774;&#xc6a9;&#xc790;&#xb4e4;&#xc758; &#xb9c8;&#xc77c;&#xb9ac;&#xc9c0; &#xb610;&#xb294; &#xc801;&#xb9bd;&#xae08; &#xb4f1;&#xc744; &#x201c;&#xbab0;&#x201d;&#xc5d0;&#xc11c; &#xd1b5;&#xc6a9;&#xb418;&#xb294; &#xd1b5;&#xd654;&#xac00;&#xce58;&#xc5d0; &#xc0c1;&#xc751;&#xd558;&#xb294; &#xd604;&#xbb3c; &#xb610;&#xb294; &#xd604;&#xae08;&#xc73c;&#xb85c; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xc9c0;&#xae09;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;6&#xc870;(&#xd68c;&#xc6d0;&#xac00;&#xc785;) &#xa; &#xa;  &#x2460; &#xc774;&#xc6a9;&#xc790;&#xb294; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc815;&#xd55c; &#xac00;&#xc785; &#xc591;&#xc2dd;&#xc5d0; &#xb530;&#xb77c; &#xd68c;&#xc6d0;&#xc815;&#xbcf4;&#xb97c; &#xae30;&#xc785;&#xd55c; &#xd6c4; &#xc774; &#xc57d;&#xad00;&#xc5d0; &#xb3d9;&#xc758;&#xd55c;&#xb2e4;&#xb294; &#xc758;&#xc0ac;&#xd45c;&#xc2dc;&#xb97c; &#xd568;&#xc73c;&#xb85c;&#xc11c; &#xd68c;&#xc6d0;&#xac00;&#xc785;&#xc744; &#xc2e0;&#xccad;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc81c;1&#xd56d;&#xacfc; &#xac19;&#xc774; &#xd68c;&#xc6d0;&#xc73c;&#xb85c; &#xac00;&#xc785;&#xd560; &#xac83;&#xc744; &#xc2e0;&#xccad;&#xd55c; &#xc774;&#xc6a9;&#xc790; &#xc911; &#xb2e4;&#xc74c; &#xac01; &#xd638;&#xc5d0; &#xd574;&#xb2f9;&#xd558;&#xc9c0; &#xc54a;&#xb294; &#xd55c; &#xd68c;&#xc6d0;&#xc73c;&#xb85c; &#xb4f1;&#xb85d;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xac00;&#xc785;&#xc2e0;&#xccad;&#xc790;&#xac00; &#xc774; &#xc57d;&#xad00; &#xc81c;7&#xc870;&#xc81c;3&#xd56d;&#xc5d0; &#xc758;&#xd558;&#xc5ec; &#xc774;&#xc804;&#xc5d0; &#xd68c;&#xc6d0;&#xc790;&#xaca9;&#xc744; &#xc0c1;&#xc2e4;&#xd55c; &#xc801;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;, &#xb2e4;&#xb9cc; &#xc81c;7&#xc870;&#xc81c;3&#xd56d;&#xc5d0; &#xc758;&#xd55c; &#xd68c;&#xc6d0;&#xc790;&#xaca9; &#xc0c1;&#xc2e4; &#xd6c4; 3&#xb144;&#xc774; &#xacbd;&#xacfc;&#xd55c; &#xc790;&#xb85c;&#xc11c; &#x201c;&#xbab0;&#x201d;&#xc758; &#xd68c;&#xc6d0;&#xc7ac;&#xac00;&#xc785; &#xc2b9;&#xb099;&#xc744; &#xc5bb;&#xc740; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc608;&#xc678;&#xb85c; &#xd55c;&#xb2e4;.&#xa;    2. &#xb4f1;&#xb85d; &#xb0b4;&#xc6a9;&#xc5d0; &#xd5c8;&#xc704;, &#xae30;&#xc7ac;&#xb204;&#xb77d;, &#xc624;&#xae30;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xa;    3. &#xae30;&#xd0c0; &#xd68c;&#xc6d0;&#xc73c;&#xb85c; &#xb4f1;&#xb85d;&#xd558;&#xb294; &#xac83;&#xc774; &#x201c;&#xbab0;&#x201d;&#xc758; &#xae30;&#xc220;&#xc0c1; &#xd604;&#xc800;&#xd788; &#xc9c0;&#xc7a5;&#xc774; &#xc788;&#xb2e4;&#xace0; &#xd310;&#xb2e8;&#xb418;&#xb294; &#xacbd;&#xc6b0;&#xa; &#xa;  &#x2462; &#xd68c;&#xc6d0;&#xac00;&#xc785;&#xacc4;&#xc57d;&#xc758; &#xc131;&#xb9bd; &#xc2dc;&#xae30;&#xb294; &#x201c;&#xbab0;&#x201d;&#xc758; &#xc2b9;&#xb099;&#xc774; &#xd68c;&#xc6d0;&#xc5d0;&#xac8c; &#xb3c4;&#xb2ec;&#xd55c; &#xc2dc;&#xc810;&#xc73c;&#xb85c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#xd68c;&#xc6d0;&#xc740; &#xd68c;&#xc6d0;&#xac00;&#xc785; &#xc2dc; &#xb4f1;&#xb85d;&#xd55c; &#xc0ac;&#xd56d;&#xc5d0; &#xbcc0;&#xacbd;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;, &#xc0c1;&#xb2f9;&#xd55c; &#xae30;&#xac04; &#xc774;&#xb0b4;&#xc5d0; &#x201c;&#xbab0;&#x201d;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#xd68c;&#xc6d0;&#xc815;&#xbcf4; &#xc218;&#xc815; &#xb4f1;&#xc758; &#xbc29;&#xbc95;&#xc73c;&#xb85c; &#xadf8; &#xbcc0;&#xacbd;&#xc0ac;&#xd56d;&#xc744; &#xc54c;&#xb824;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;7&#xc870;(&#xd68c;&#xc6d0; &#xd0c8;&#xd1f4; &#xbc0f; &#xc790;&#xaca9; &#xc0c1;&#xc2e4; &#xb4f1;) &#xa; &#xa;  &#x2460; &#xd68c;&#xc6d0;&#xc740; &#x201c;&#xbab0;&#x201d;&#xc5d0; &#xc5b8;&#xc81c;&#xb4e0;&#xc9c0; &#xd0c8;&#xd1f4;&#xb97c; &#xc694;&#xccad;&#xd560; &#xc218; &#xc788;&#xc73c;&#xba70; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc989;&#xc2dc; &#xd68c;&#xc6d0;&#xd0c8;&#xd1f4;&#xb97c; &#xcc98;&#xb9ac;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#xd68c;&#xc6d0;&#xc774; &#xb2e4;&#xc74c; &#xac01; &#xd638;&#xc758; &#xc0ac;&#xc720;&#xc5d0; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xacbd;&#xc6b0;, &#x201c;&#xbab0;&#x201d;&#xc740; &#xd68c;&#xc6d0;&#xc790;&#xaca9;&#xc744; &#xc81c;&#xd55c; &#xbc0f; &#xc815;&#xc9c0;&#xc2dc;&#xd0ac; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xac00;&#xc785; &#xc2e0;&#xccad; &#xc2dc;&#xc5d0; &#xd5c8;&#xc704; &#xb0b4;&#xc6a9;&#xc744; &#xb4f1;&#xb85d;&#xd55c; &#xacbd;&#xc6b0;&#xa;    2. &#x201c;&#xbab0;&#x201d;&#xc744; &#xc774;&#xc6a9;&#xd558;&#xc5ec; &#xad6c;&#xc785;&#xd55c; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;, &#xae30;&#xd0c0; &#x201c;&#xbab0;&#x201d;&#xc774;&#xc6a9;&#xc5d0; &#xad00;&#xb828;&#xd558;&#xc5ec; &#xd68c;&#xc6d0;&#xc774; &#xbd80;&#xb2f4;&#xd558;&#xb294; &#xcc44;&#xbb34;&#xb97c; &#xae30;&#xc77c;&#xc5d0; &#xc9c0;&#xae09;&#xd558;&#xc9c0; &#xc54a;&#xb294; &#xacbd;&#xc6b0;&#xa;    3. &#xb2e4;&#xb978; &#xc0ac;&#xb78c;&#xc758; &#x201c;&#xbab0;&#x201d; &#xc774;&#xc6a9;&#xc744; &#xbc29;&#xd574;&#xd558;&#xac70;&#xb098; &#xadf8; &#xc815;&#xbcf4;&#xb97c; &#xb3c4;&#xc6a9;&#xd558;&#xb294; &#xb4f1; &#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xc9c8;&#xc11c;&#xb97c; &#xc704;&#xd611;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xa;    4. &#x201c;&#xbab0;&#x201d;&#xc744; &#xc774;&#xc6a9;&#xd558;&#xc5ec; &#xbc95;&#xb839; &#xb610;&#xb294; &#xc774; &#xc57d;&#xad00;&#xc774; &#xae08;&#xc9c0;&#xd558;&#xac70;&#xb098; &#xacf5;&#xc11c;&#xc591;&#xc18d;&#xc5d0; &#xbc18;&#xd558;&#xb294; &#xd589;&#xc704;&#xb97c; &#xd558;&#xb294; &#xacbd;&#xc6b0;&#xa; &#xa;  &#x2462; &#x201c;&#xbab0;&#x201d;&#xc774; &#xd68c;&#xc6d0; &#xc790;&#xaca9;&#xc744; &#xc81c;&#xd55c;&#x2024;&#xc815;&#xc9c0; &#xc2dc;&#xd0a8; &#xd6c4;, &#xb3d9;&#xc77c;&#xd55c; &#xd589;&#xc704;&#xac00; 2&#xd68c; &#xc774;&#xc0c1; &#xbc18;&#xbcf5;&#xb418;&#xac70;&#xb098; 30&#xc77c; &#xc774;&#xb0b4;&#xc5d0; &#xadf8; &#xc0ac;&#xc720;&#xac00; &#xc2dc;&#xc815;&#xb418;&#xc9c0; &#xc544;&#xb2c8;&#xd558;&#xb294; &#xacbd;&#xc6b0; &#x201c;&#xbab0;&#x201d;&#xc740; &#xd68c;&#xc6d0;&#xc790;&#xaca9;&#xc744; &#xc0c1;&#xc2e4;&#xc2dc;&#xd0ac; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#x201c;&#xbab0;&#x201d;&#xc774; &#xd68c;&#xc6d0;&#xc790;&#xaca9;&#xc744; &#xc0c1;&#xc2e4;&#xc2dc;&#xd0a4;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xd68c;&#xc6d0;&#xb4f1;&#xb85d;&#xc744; &#xb9d0;&#xc18c;&#xd569;&#xb2c8;&#xb2e4;. &#xc774; &#xacbd;&#xc6b0; &#xd68c;&#xc6d0;&#xc5d0;&#xac8c; &#xc774;&#xb97c; &#xd1b5;&#xc9c0;&#xd558;&#xace0;, &#xd68c;&#xc6d0;&#xb4f1;&#xb85d; &#xb9d0;&#xc18c; &#xc804;&#xc5d0; &#xcd5c;&#xc18c;&#xd55c; 30&#xc77c; &#xc774;&#xc0c1;&#xc758; &#xae30;&#xac04;&#xc744; &#xc815;&#xd558;&#xc5ec; &#xc18c;&#xba85;&#xd560; &#xae30;&#xd68c;&#xb97c; &#xbd80;&#xc5ec;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;8&#xc870;(&#xd68c;&#xc6d0;&#xc5d0; &#xb300;&#xd55c; &#xd1b5;&#xc9c0;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc774; &#xd68c;&#xc6d0;&#xc5d0; &#xb300;&#xd55c; &#xd1b5;&#xc9c0;&#xb97c; &#xd558;&#xb294; &#xacbd;&#xc6b0;, &#xd68c;&#xc6d0;&#xc774; &#x201c;&#xbab0;&#x201d;&#xacfc; &#xbbf8;&#xb9ac; &#xc57d;&#xc815;&#xd558;&#xc5ec; &#xc9c0;&#xc815;&#xd55c; &#xc804;&#xc790;&#xc6b0;&#xd3b8; &#xc8fc;&#xc18c;&#xb85c; &#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc740; &#xbd88;&#xd2b9;&#xc815;&#xb2e4;&#xc218; &#xd68c;&#xc6d0;&#xc5d0; &#xb300;&#xd55c; &#xd1b5;&#xc9c0;&#xc758; &#xacbd;&#xc6b0; 1&#xc8fc;&#xc77c;&#xc774;&#xc0c1; &#x201c;&#xbab0;&#x201d; &#xac8c;&#xc2dc;&#xd310;&#xc5d0; &#xac8c;&#xc2dc;&#xd568;&#xc73c;&#xb85c;&#xc11c; &#xac1c;&#xbcc4; &#xd1b5;&#xc9c0;&#xc5d0; &#xac08;&#xc74c;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xd68c;&#xc6d0; &#xbcf8;&#xc778;&#xc758; &#xac70;&#xb798;&#xc640; &#xad00;&#xb828;&#xd558;&#xc5ec; &#xc911;&#xb300;&#xd55c; &#xc601;&#xd5a5;&#xc744; &#xbbf8;&#xce58;&#xb294; &#xc0ac;&#xd56d;&#xc5d0; &#xb300;&#xd558;&#xc5ec;&#xb294; &#xac1c;&#xbcc4;&#xd1b5;&#xc9c0;&#xb97c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;9&#xc870;(&#xad6c;&#xb9e4;&#xc2e0;&#xccad;) &#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc774;&#xc6a9;&#xc790;&#xb294; &#x201c;&#xbab0;&#x201d;&#xc0c1;&#xc5d0;&#xc11c; &#xb2e4;&#xc74c; &#xb610;&#xb294; &#xc774;&#xc640; &#xc720;&#xc0ac;&#xd55c; &#xbc29;&#xbc95;&#xc5d0; &#xc758;&#xd558;&#xc5ec; &#xad6c;&#xb9e4;&#xb97c; &#xc2e0;&#xccad;&#xd558;&#xba70;, &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xad6c;&#xb9e4;&#xc2e0;&#xccad;&#xc744; &#xd568;&#xc5d0; &#xc788;&#xc5b4;&#xc11c; &#xb2e4;&#xc74c;&#xc758; &#xac01; &#xb0b4;&#xc6a9;&#xc744; &#xc54c;&#xae30; &#xc27d;&#xac8c; &#xc81c;&#xacf5;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa;      1. &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xac80;&#xc0c9; &#xbc0f; &#xc120;&#xd0dd;&#xa;      2. &#xbc1b;&#xb294; &#xc0ac;&#xb78c;&#xc758; &#xc131;&#xba85;, &#xc8fc;&#xc18c;, &#xc804;&#xd654;&#xbc88;&#xd638;, &#xc804;&#xc790;&#xc6b0;&#xd3b8;&#xc8fc;&#xc18c;(&#xb610;&#xb294; &#xc774;&#xb3d9;&#xc804;&#xd654;&#xbc88;&#xd638;) &#xb4f1;&#xc758; &#xc785;&#xb825;&#xa;      3. &#xc57d;&#xad00;&#xb0b4;&#xc6a9;, &#xccad;&#xc57d;&#xcca0;&#xd68c;&#xad8c;&#xc774; &#xc81c;&#xd55c;&#xb418;&#xb294; &#xc11c;&#xbe44;&#xc2a4;, &#xbc30;&#xc1a1;&#xb8cc;&#x2024;&#xc124;&#xce58;&#xbe44; &#xb4f1;&#xc758; &#xbe44;&#xc6a9;&#xbd80;&#xb2f4;&#xacfc; &#xad00;&#xb828;&#xd55c; &#xb0b4;&#xc6a9;&#xc5d0; &#xb300;&#xd55c; &#xd655;&#xc778;&#xa;      4. &#xc774; &#xc57d;&#xad00;&#xc5d0; &#xb3d9;&#xc758;&#xd558;&#xace0; &#xc704; 3.&#xd638;&#xc758; &#xc0ac;&#xd56d;&#xc744; &#xd655;&#xc778;&#xd558;&#xac70;&#xb098; &#xac70;&#xbd80;&#xd558;&#xb294; &#xd45c;&#xc2dc;&#xa;         (&#xc608;, &#xb9c8;&#xc6b0;&#xc2a4; &#xd074;&#xb9ad;)&#xa;      5. &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xad6c;&#xb9e4;&#xc2e0;&#xccad; &#xbc0f; &#xc774;&#xc5d0; &#xad00;&#xd55c; &#xd655;&#xc778; &#xb610;&#xb294; &#x201c;&#xbab0;&#x201d;&#xc758; &#xd655;&#xc778;&#xc5d0; &#xb300;&#xd55c; &#xb3d9;&#xc758;&#xa;      6. &#xacb0;&#xc81c;&#xbc29;&#xbc95;&#xc758; &#xc120;&#xd0dd;&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc81c;3&#xc790;&#xc5d0;&#xac8c; &#xad6c;&#xb9e4;&#xc790; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc81c;&#xacf5;&#xb7;&#xc704;&#xd0c1;&#xd560; &#xd544;&#xc694;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0; &#xc2e4;&#xc81c; &#xad6c;&#xb9e4;&#xc2e0;&#xccad; &#xc2dc; &#xad6c;&#xb9e4;&#xc790;&#xc758; &#xb3d9;&#xc758;&#xb97c; &#xbc1b;&#xc544;&#xc57c; &#xd558;&#xba70;, &#xd68c;&#xc6d0;&#xac00;&#xc785; &#xc2dc; &#xbbf8;&#xb9ac; &#xd3ec;&#xad04;&#xc801;&#xc73c;&#xb85c; &#xb3d9;&#xc758;&#xb97c; &#xbc1b;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. &#xc774; &#xb54c; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc81c;&#xacf5;&#xb418;&#xb294; &#xac1c;&#xc778;&#xc815;&#xbcf4; &#xd56d;&#xbaa9;, &#xc81c;&#xacf5;&#xbc1b;&#xb294; &#xc790;, &#xc81c;&#xacf5;&#xbc1b;&#xb294; &#xc790;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4; &#xc774;&#xc6a9; &#xbaa9;&#xc801; &#xbc0f; &#xbcf4;&#xc720;&#x2027;&#xc774;&#xc6a9; &#xae30;&#xac04; &#xb4f1;&#xc744; &#xad6c;&#xb9e4;&#xc790;&#xc5d0;&#xac8c; &#xba85;&#xc2dc;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc; &#x300c;&#xc815;&#xbcf4;&#xd1b5;&#xc2e0;&#xb9dd;&#xc774;&#xc6a9;&#xcd09;&#xc9c4; &#xbc0f; &#xc815;&#xbcf4;&#xbcf4;&#xd638; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d; &#xc81c;25&#xc870; &#xc81c;1&#xd56d;&#xc5d0; &#xc758;&#xd55c; &#xac1c;&#xc778;&#xc815;&#xbcf4; &#xcde8;&#xae09;&#xc704;&#xd0c1;&#xc758; &#xacbd;&#xc6b0; &#xb4f1; &#xad00;&#xb828; &#xbc95;&#xb839;&#xc5d0; &#xb2ec;&#xb9ac; &#xc815;&#xd568;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xc5d0; &#xb530;&#xb985;&#xb2c8;&#xb2e4;.&#xa; &#xa; &#xa;&#xc81c;10&#xc870; (&#xacc4;&#xc57d;&#xc758; &#xc131;&#xb9bd;)&#xa; &#xa;  &#x2460;  &#x201c;&#xbab0;&#x201d;&#xc740; &#xc81c;9&#xc870;&#xc640; &#xac19;&#xc740; &#xad6c;&#xb9e4;&#xc2e0;&#xccad;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#xb2e4;&#xc74c; &#xac01; &#xd638;&#xc5d0; &#xd574;&#xb2f9;&#xd558;&#xba74; &#xc2b9;&#xb099;&#xd558;&#xc9c0; &#xc54a;&#xc744; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xbbf8;&#xc131;&#xb144;&#xc790;&#xc640; &#xacc4;&#xc57d;&#xc744; &#xccb4;&#xacb0;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xbc95;&#xc815;&#xb300;&#xb9ac;&#xc778;&#xc758; &#xb3d9;&#xc758;&#xb97c; &#xc5bb;&#xc9c0; &#xbabb;&#xd558;&#xba74; &#xbbf8;&#xc131;&#xb144;&#xc790; &#xbcf8;&#xc778; &#xb610;&#xb294; &#xbc95;&#xc815;&#xb300;&#xb9ac;&#xc778;&#xc774; &#xacc4;&#xc57d;&#xc744; &#xcde8;&#xc18c;&#xd560; &#xc218; &#xc788;&#xb2e4;&#xb294; &#xb0b4;&#xc6a9;&#xc744; &#xace0;&#xc9c0;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xc2e0;&#xccad; &#xb0b4;&#xc6a9;&#xc5d0; &#xd5c8;&#xc704;, &#xae30;&#xc7ac;&#xb204;&#xb77d;, &#xc624;&#xae30;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xa;    2. &#xbbf8;&#xc131;&#xb144;&#xc790;&#xac00; &#xb2f4;&#xbc30;, &#xc8fc;&#xb958; &#xb4f1; &#xccad;&#xc18c;&#xb144;&#xbcf4;&#xd638;&#xbc95;&#xc5d0;&#xc11c; &#xae08;&#xc9c0;&#xd558;&#xb294; &#xc7ac;&#xd654; &#xbc0f; &#xc6a9;&#xc5ed;&#xc744; &#xad6c;&#xb9e4;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xa;    3. &#xae30;&#xd0c0; &#xad6c;&#xb9e4;&#xc2e0;&#xccad;&#xc5d0; &#xc2b9;&#xb099;&#xd558;&#xb294; &#xac83;&#xc774; &#x201c;&#xbab0;&#x201d; &#xae30;&#xc220;&#xc0c1; &#xd604;&#xc800;&#xd788; &#xc9c0;&#xc7a5;&#xc774; &#xc788;&#xb2e4;&#xace0; &#xd310;&#xb2e8;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc758; &#xc2b9;&#xb099;&#xc774; &#xc81c;12&#xc870;&#xc81c;1&#xd56d;&#xc758; &#xc218;&#xc2e0;&#xd655;&#xc778;&#xd1b5;&#xc9c0;&#xd615;&#xd0dc;&#xb85c; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xb3c4;&#xb2ec;&#xd55c; &#xc2dc;&#xc810;&#xc5d0; &#xacc4;&#xc57d;&#xc774; &#xc131;&#xb9bd;&#xd55c; &#xac83;&#xc73c;&#xb85c; &#xbd05;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#x201c;&#xbab0;&#x201d;&#xc758; &#xc2b9;&#xb099;&#xc758; &#xc758;&#xc0ac;&#xd45c;&#xc2dc;&#xc5d0;&#xb294; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xad6c;&#xb9e4; &#xc2e0;&#xccad;&#xc5d0; &#xb300;&#xd55c; &#xd655;&#xc778; &#xbc0f; &#xd310;&#xb9e4;&#xac00;&#xb2a5; &#xc5ec;&#xbd80;, &#xad6c;&#xb9e4;&#xc2e0;&#xccad;&#xc758; &#xc815;&#xc815; &#xcde8;&#xc18c; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xc815;&#xbcf4; &#xb4f1;&#xc744; &#xd3ec;&#xd568;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;11&#xc870;(&#xc9c0;&#xae09;&#xbc29;&#xbc95;) &#x201c;&#xbab0;&#x201d;&#xc5d0;&#xc11c; &#xad6c;&#xb9e4;&#xd55c; &#xc7ac;&#xd654; &#xb610;&#xb294; &#xc6a9;&#xc5ed;&#xc5d0; &#xb300;&#xd55c; &#xb300;&#xae08;&#xc9c0;&#xae09;&#xbc29;&#xbc95;&#xc740; &#xb2e4;&#xc74c; &#xac01; &#xd638;&#xc758; &#xbc29;&#xbc95;&#xc911; &#xac00;&#xc6a9;&#xd55c; &#xbc29;&#xbc95;&#xc73c;&#xb85c; &#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e8;, &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc9c0;&#xae09;&#xbc29;&#xbc95;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;&#xc5d0; &#xc5b4;&#xb5a0;&#xd55c; &#xba85;&#xbaa9;&#xc758; &#xc218;&#xc218;&#xb8cc;&#xb3c4;  &#xcd94;&#xac00;&#xd558;&#xc5ec; &#xc9d5;&#xc218;&#xd560; &#xc218; &#xc5c6;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xd3f0;&#xbc45;&#xd0b9;, &#xc778;&#xd130;&#xb137;&#xbc45;&#xd0b9;, &#xba54;&#xc77c; &#xbc45;&#xd0b9; &#xb4f1;&#xc758; &#xac01;&#xc885; &#xacc4;&#xc88c;&#xc774;&#xccb4; &#xa;    2. &#xc120;&#xbd88;&#xce74;&#xb4dc;, &#xc9c1;&#xbd88;&#xce74;&#xb4dc;, &#xc2e0;&#xc6a9;&#xce74;&#xb4dc; &#xb4f1;&#xc758; &#xac01;&#xc885; &#xce74;&#xb4dc; &#xacb0;&#xc81c;&#xa;    3. &#xc628;&#xb77c;&#xc778;&#xbb34;&#xd1b5;&#xc7a5;&#xc785;&#xae08;&#xa;    4. &#xc804;&#xc790;&#xd654;&#xd3d0;&#xc5d0; &#xc758;&#xd55c; &#xacb0;&#xc81c;&#xa;    5. &#xc218;&#xb839; &#xc2dc; &#xb300;&#xae08;&#xc9c0;&#xae09;&#xa;    6. &#xb9c8;&#xc77c;&#xb9ac;&#xc9c0; &#xb4f1; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc9c0;&#xae09;&#xd55c; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0; &#xc758;&#xd55c; &#xacb0;&#xc81c;&#xa;    7. &#x201c;&#xbab0;&#x201d;&#xacfc; &#xacc4;&#xc57d;&#xc744; &#xb9fa;&#xc5c8;&#xac70;&#xb098; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc778;&#xc815;&#xd55c; &#xc0c1;&#xd488;&#xad8c;&#xc5d0; &#xc758;&#xd55c; &#xacb0;&#xc81c;  &#xa;    8. &#xae30;&#xd0c0; &#xc804;&#xc790;&#xc801; &#xc9c0;&#xae09; &#xbc29;&#xbc95;&#xc5d0; &#xc758;&#xd55c; &#xb300;&#xae08; &#xc9c0;&#xae09; &#xb4f1;&#xa; &#xa;&#xc81c;12&#xc870;(&#xc218;&#xc2e0;&#xd655;&#xc778;&#xd1b5;&#xc9c0;&#x2024;&#xad6c;&#xb9e4;&#xc2e0;&#xccad; &#xbcc0;&#xacbd; &#xbc0f; &#xcde8;&#xc18c;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xad6c;&#xb9e4;&#xc2e0;&#xccad;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xc218;&#xc2e0;&#xd655;&#xc778;&#xd1b5;&#xc9c0;&#xb97c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#xc218;&#xc2e0;&#xd655;&#xc778;&#xd1b5;&#xc9c0;&#xb97c; &#xbc1b;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xb294; &#xc758;&#xc0ac;&#xd45c;&#xc2dc;&#xc758; &#xbd88;&#xc77c;&#xce58; &#xb4f1;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc218;&#xc2e0;&#xd655;&#xc778;&#xd1b5;&#xc9c0;&#xb97c; &#xbc1b;&#xc740; &#xd6c4; &#xc989;&#xc2dc; &#xad6c;&#xb9e4;&#xc2e0;&#xccad; &#xbcc0;&#xacbd; &#xbc0f; &#xcde8;&#xc18c;&#xb97c; &#xc694;&#xccad;&#xd560; &#xc218; &#xc788;&#xace0; &#x201c;&#xbab0;&#x201d;&#xc740; &#xbc30;&#xc1a1; &#xc804;&#xc5d0; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc694;&#xccad;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc9c0;&#xccb4; &#xc5c6;&#xc774; &#xadf8; &#xc694;&#xccad;&#xc5d0; &#xb530;&#xb77c; &#xcc98;&#xb9ac;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc; &#xc774;&#xbbf8; &#xb300;&#xae08;&#xc744; &#xc9c0;&#xbd88;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc81c;15&#xc870;&#xc758; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xaddc;&#xc815;&#xc5d0; &#xb530;&#xb985;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;13&#xc870;(&#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xacf5;&#xae09;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xc640; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xacf5;&#xae09;&#xc2dc;&#xae30;&#xc5d0; &#xad00;&#xd558;&#xc5ec; &#xbcc4;&#xb3c4;&#xc758; &#xc57d;&#xc815;&#xc774; &#xc5c6;&#xb294; &#xc774;&#xc0c1;, &#xc774;&#xc6a9;&#xc790;&#xac00; &#xccad;&#xc57d;&#xc744; &#xd55c; &#xb0a0;&#xbd80;&#xd130; 7&#xc77c; &#xc774;&#xb0b4;&#xc5d0; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xbc30;&#xc1a1;&#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xc8fc;&#xbb38;&#xc81c;&#xc791;, &#xd3ec;&#xc7a5; &#xb4f1; &#xae30;&#xd0c0;&#xc758; &#xd544;&#xc694;&#xd55c; &#xc870;&#xce58;&#xb97c; &#xcde8;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#x201c;&#xbab0;&#x201d;&#xc774; &#xc774;&#xbbf8; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;&#xc758; &#xc804;&#xbd80; &#xb610;&#xb294; &#xc77c;&#xbd80;&#xb97c; &#xbc1b;&#xc740; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xb300;&#xae08;&#xc758; &#xc804;&#xbd80; &#xb610;&#xb294; &#xc77c;&#xbd80;&#xb97c; &#xbc1b;&#xc740; &#xb0a0;&#xbd80;&#xd130; 3&#xc601;&#xc5c5;&#xc77c; &#xc774;&#xb0b4;&#xc5d0; &#xc870;&#xce58;&#xb97c; &#xcde8;&#xd569;&#xb2c8;&#xb2e4;.  &#xc774;&#xb54c; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xacf5;&#xae09; &#xc808;&#xcc28; &#xbc0f; &#xc9c4;&#xd589; &#xc0ac;&#xd56d;&#xc744; &#xd655;&#xc778;&#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xc801;&#xc808;&#xd55c; &#xc870;&#xce58;&#xb97c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xad6c;&#xb9e4;&#xd55c; &#xc7ac;&#xd654;&#xc5d0; &#xb300;&#xd574; &#xbc30;&#xc1a1;&#xc218;&#xb2e8;, &#xc218;&#xb2e8;&#xbcc4; &#xbc30;&#xc1a1;&#xbe44;&#xc6a9; &#xbd80;&#xb2f4;&#xc790;, &#xc218;&#xb2e8;&#xbcc4; &#xbc30;&#xc1a1;&#xae30;&#xac04; &#xb4f1;&#xc744; &#xba85;&#xc2dc;&#xd569;&#xb2c8;&#xb2e4;. &#xb9cc;&#xc57d; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc57d;&#xc815; &#xbc30;&#xc1a1;&#xae30;&#xac04;&#xc744; &#xcd08;&#xacfc;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xb85c; &#xc778;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc190;&#xd574;&#xb97c; &#xbc30;&#xc0c1;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc; &#x201c;&#xbab0;&#x201d;&#xc774; &#xace0;&#xc758;&#x2024;&#xacfc;&#xc2e4;&#xc774; &#xc5c6;&#xc74c;&#xc744; &#xc785;&#xc99d;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xb7ec;&#xd558;&#xc9c0; &#xc544;&#xb2c8;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;14&#xc870;(&#xd658;&#xae09;) &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xad6c;&#xb9e4;&#xc2e0;&#xccad;&#xd55c; &#xc7ac;&#xd654; &#xb4f1;&#xc774; &#xd488;&#xc808; &#xb4f1;&#xc758; &#xc0ac;&#xc720;&#xb85c; &#xc778;&#xb3c4; &#xb610;&#xb294; &#xc81c;&#xacf5;&#xc744; &#xd560; &#xc218; &#xc5c6;&#xc744; &#xb54c;&#xc5d0;&#xb294; &#xc9c0;&#xccb4; &#xc5c6;&#xc774; &#xadf8; &#xc0ac;&#xc720;&#xb97c; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xd1b5;&#xc9c0;&#xd558;&#xace0; &#xc0ac;&#xc804;&#xc5d0; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;&#xc744; &#xbc1b;&#xc740; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xb300;&#xae08;&#xc744; &#xbc1b;&#xc740; &#xb0a0;&#xbd80;&#xd130; 3&#xc601;&#xc5c5;&#xc77c; &#xc774;&#xb0b4;&#xc5d0; &#xd658;&#xae09;&#xd558;&#xac70;&#xb098; &#xd658;&#xae09;&#xc5d0; &#xd544;&#xc694;&#xd55c; &#xc870;&#xce58;&#xb97c; &#xcde8;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;15&#xc870;(&#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xacfc; &#xc7ac;&#xd654;&#xb4f1;&#xc758; &#xad6c;&#xb9e4;&#xc5d0; &#xad00;&#xd55c; &#xacc4;&#xc57d;&#xc744; &#xccb4;&#xacb0;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xb294; &#x300c;&#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xb4f1;&#xc5d0;&#xc11c;&#xc758; &#xc18c;&#xbe44;&#xc790;&#xbcf4;&#xd638;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d; &#xc81c;13&#xc870; &#xc81c;2&#xd56d;&#xc5d0; &#xb530;&#xb978; &#xacc4;&#xc57d;&#xb0b4;&#xc6a9;&#xc5d0; &#xad00;&#xd55c; &#xc11c;&#xba74;&#xc744; &#xbc1b;&#xc740; &#xb0a0;(&#xadf8; &#xc11c;&#xba74;&#xc744; &#xbc1b;&#xc740; &#xb54c;&#xbcf4;&#xb2e4; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xacf5;&#xae09;&#xc774; &#xb2a6;&#xac8c; &#xc774;&#xb8e8;&#xc5b4;&#xc9c4; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xacf5;&#xae09;&#xbc1b;&#xac70;&#xb098; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xacf5;&#xae09;&#xc774; &#xc2dc;&#xc791;&#xb41c; &#xb0a0;&#xc744; &#xb9d0;&#xd569;&#xb2c8;&#xb2e4;)&#xbd80;&#xd130; 7&#xc77c; &#xc774;&#xb0b4;&#xc5d0;&#xb294; &#xccad;&#xc57d;&#xc758; &#xcca0;&#xd68c;&#xb97c; &#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xccad;&#xc57d;&#xcca0;&#xd68c;&#xc5d0; &#xad00;&#xd558;&#xc5ec; &#x300c;&#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xb4f1;&#xc5d0;&#xc11c;&#xc758; &#xc18c;&#xbe44;&#xc790;&#xbcf4;&#xd638;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d;&#xc5d0; &#xb2ec;&#xb9ac; &#xc815;&#xd568;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xb3d9; &#xbc95; &#xaddc;&#xc815;&#xc5d0; &#xb530;&#xb985;&#xb2c8;&#xb2e4;. &#xa; &#xa;  &#x2461; &#xc774;&#xc6a9;&#xc790;&#xb294; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xbc30;&#xc1a1; &#xbc1b;&#xc740; &#xacbd;&#xc6b0; &#xb2e4;&#xc74c; &#xac01; &#xd638;&#xc758; 1&#xc5d0; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xbc18;&#xd488; &#xbc0f; &#xad50;&#xd658;&#xc744; &#xd560; &#xc218; &#xc5c6;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xcc45;&#xc784; &#xc788;&#xb294; &#xc0ac;&#xc720;&#xb85c; &#xc7ac;&#xd654; &#xb4f1;&#xc774; &#xba78;&#xc2e4; &#xb610;&#xb294; &#xd6fc;&#xc190;&#xb41c; &#xacbd;&#xc6b0;(&#xb2e4;&#xb9cc;, &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xd655;&#xc778;&#xd558;&#xae30; &#xc704;&#xd558;&#xc5ec; &#xd3ec;&#xc7a5; &#xb4f1;&#xc744; &#xd6fc;&#xc190;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xccad;&#xc57d;&#xcca0;&#xd68c;&#xb97c; &#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;)&#xa;    2. &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc0ac;&#xc6a9; &#xb610;&#xb294; &#xc77c;&#xbd80; &#xc18c;&#xbe44;&#xc5d0; &#xc758;&#xd558;&#xc5ec; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xac00;&#xce58;&#xac00; &#xd604;&#xc800;&#xd788; &#xac10;&#xc18c;&#xd55c; &#xacbd;&#xc6b0;&#xa;    3. &#xc2dc;&#xac04;&#xc758; &#xacbd;&#xacfc;&#xc5d0; &#xc758;&#xd558;&#xc5ec; &#xc7ac;&#xd310;&#xb9e4;&#xac00; &#xace4;&#xb780;&#xd560; &#xc815;&#xb3c4;&#xb85c; &#xc7ac;&#xd654;&#xb4f1;&#xc758; &#xac00;&#xce58;&#xac00; &#xd604;&#xc800;&#xd788; &#xac10;&#xc18c;&#xd55c; &#xacbd;&#xc6b0;&#xa;    4. &#xac19;&#xc740; &#xc131;&#xb2a5;&#xc744; &#xc9c0;&#xb2cc; &#xc7ac;&#xd654; &#xb4f1;&#xc73c;&#xb85c; &#xbcf5;&#xc81c;&#xac00; &#xac00;&#xb2a5;&#xd55c; &#xacbd;&#xc6b0; &#xadf8; &#xc6d0;&#xbcf8;&#xc778; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xd3ec;&#xc7a5;&#xc744; &#xd6fc;&#xc190;&#xd55c; &#xacbd;&#xc6b0;&#xa; &#xa;  &#x2462; &#xc81c;2&#xd56d;&#xc81c;2&#xd638; &#xb0b4;&#xc9c0; &#xc81c;4&#xd638;&#xc758; &#xacbd;&#xc6b0;&#xc5d0; &#x201c;&#xbab0;&#x201d;&#xc774; &#xc0ac;&#xc804;&#xc5d0; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc774; &#xc81c;&#xd55c;&#xb418;&#xb294; &#xc0ac;&#xc2e4;&#xc744; &#xc18c;&#xbe44;&#xc790;&#xac00; &#xc27d;&#xac8c; &#xc54c; &#xc218; &#xc788;&#xb294; &#xacf3;&#xc5d0; &#xba85;&#xae30;&#xd558;&#xac70;&#xb098; &#xc2dc;&#xc6a9;&#xc0c1;&#xd488;&#xc744; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xb4f1;&#xc758; &#xc870;&#xce58;&#xb97c; &#xd558;&#xc9c0; &#xc54a;&#xc558;&#xb2e4;&#xba74; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc774; &#xc81c;&#xd55c;&#xb418;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#xc774;&#xc6a9;&#xc790;&#xb294; &#xc81c;1&#xd56d; &#xbc0f; &#xc81c;2&#xd56d;&#xc758; &#xaddc;&#xc815;&#xc5d0; &#xbd88;&#xad6c;&#xd558;&#xace0; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb0b4;&#xc6a9;&#xc774; &#xd45c;&#xc2dc;&#xb7;&#xad11;&#xace0; &#xb0b4;&#xc6a9;&#xacfc; &#xb2e4;&#xb974;&#xac70;&#xb098; &#xacc4;&#xc57d;&#xb0b4;&#xc6a9;&#xacfc; &#xb2e4;&#xb974;&#xac8c; &#xc774;&#xd589;&#xb41c; &#xb54c;&#xc5d0;&#xb294; &#xb2f9;&#xd574; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xacf5;&#xae09;&#xbc1b;&#xc740; &#xb0a0;&#xbd80;&#xd130; 3&#xc6d4; &#xc774;&#xb0b4;, &#xadf8; &#xc0ac;&#xc2e4;&#xc744; &#xc548; &#xb0a0; &#xb610;&#xb294; &#xc54c; &#xc218; &#xc788;&#xc5c8;&#xb358; &#xb0a0;&#xbd80;&#xd130; 30&#xc77c; &#xc774;&#xb0b4;&#xc5d0; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc744; &#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;16&#xc870;(&#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc758; &#xd6a8;&#xacfc;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201d;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xb85c;&#xbd80;&#xd130; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xbc18;&#xd658;&#xbc1b;&#xc740; &#xacbd;&#xc6b0; 3&#xc601;&#xc5c5;&#xc77c; &#xc774;&#xb0b4;&#xc5d0; &#xc774;&#xbbf8; &#xc9c0;&#xae09;&#xbc1b;&#xc740; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;&#xc744; &#xd658;&#xae09;&#xd569;&#xb2c8;&#xb2e4;. &#xc774; &#xacbd;&#xc6b0;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xc7ac;&#xd654;&#xb4f1;&#xc758; &#xd658;&#xae09;&#xc744; &#xc9c0;&#xc5f0;&#xd55c;&#xb54c;&#xc5d0;&#xb294; &#xadf8; &#xc9c0;&#xc5f0;&#xae30;&#xac04;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#x300c;&#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xb4f1;&#xc5d0;&#xc11c;&#xc758; &#xc18c;&#xbe44;&#xc790;&#xbcf4;&#xd638;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960; &#xc2dc;&#xd589;&#xb839;&#x300d;&#xc81c;21&#xc870;&#xc758;2&#xc5d0;&#xc11c; &#xc815;&#xd558;&#xb294; &#xc9c0;&#xc5f0;&#xc774;&#xc790;&#xc728;&#xc744; &#xacf1;&#xd558;&#xc5ec; &#xc0b0;&#xc815;&#xd55c; &#xc9c0;&#xc5f0;&#xc774;&#xc790;&#xb97c; &#xc9c0;&#xae09;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc704; &#xb300;&#xae08;&#xc744; &#xd658;&#xae09;&#xd568;&#xc5d0; &#xc788;&#xc5b4;&#xc11c; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc2e0;&#xc6a9;&#xce74;&#xb4dc; &#xb610;&#xb294; &#xc804;&#xc790;&#xd654;&#xd3d0; &#xb4f1;&#xc758; &#xacb0;&#xc81c;&#xc218;&#xb2e8;&#xc73c;&#xb85c; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;&#xc744; &#xc9c0;&#xae09;&#xd55c; &#xb54c;&#xc5d0;&#xb294; &#xc9c0;&#xccb4; &#xc5c6;&#xc774; &#xb2f9;&#xd574; &#xacb0;&#xc81c;&#xc218;&#xb2e8;&#xc744; &#xc81c;&#xacf5;&#xd55c; &#xc0ac;&#xc5c5;&#xc790;&#xb85c; &#xd558;&#xc5ec;&#xae08; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb300;&#xae08;&#xc758; &#xccad;&#xad6c;&#xb97c; &#xc815;&#xc9c0; &#xb610;&#xb294; &#xcde8;&#xc18c;&#xd558;&#xb3c4;&#xb85d; &#xc694;&#xccad;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc758; &#xacbd;&#xc6b0; &#xacf5;&#xae09;&#xbc1b;&#xc740; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xbc18;&#xd658;&#xc5d0; &#xd544;&#xc694;&#xd55c; &#xbe44;&#xc6a9;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xbd80;&#xb2f4;&#xd569;&#xb2c8;&#xb2e4;.&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc744; &#xc774;&#xc720;&#xb85c; &#xc704;&#xc57d;&#xae08; &#xb610;&#xb294; &#xc190;&#xd574;&#xbc30;&#xc0c1;&#xc744; &#xccad;&#xad6c;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xb0b4;&#xc6a9;&#xc774; &#xd45c;&#xc2dc;&#xb7;&#xad11;&#xace0; &#xb0b4;&#xc6a9;&#xacfc; &#xb2e4;&#xb974;&#xac70;&#xb098; &#xacc4;&#xc57d;&#xb0b4;&#xc6a9;&#xacfc; &#xb2e4;&#xb974;&#xac8c; &#xc774;&#xd589;&#xb418;&#xc5b4; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xb4f1;&#xc744; &#xd558;&#xb294; &#xacbd;&#xc6b0; &#xc7ac;&#xd654; &#xb4f1;&#xc758; &#xbc18;&#xd658;&#xc5d0; &#xd544;&#xc694;&#xd55c; &#xbe44;&#xc6a9;&#xc740;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xbd80;&#xb2f4;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc7ac;&#xd654; &#xb4f1;&#xc744; &#xc81c;&#xacf5;&#xbc1b;&#xc744; &#xb54c; &#xbc1c;&#xc1a1;&#xbe44;&#xb97c; &#xbd80;&#xb2f4;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xccad;&#xc57d;&#xcca0;&#xd68c; &#xc2dc; &#xadf8; &#xbe44;&#xc6a9;&#xc744;  &#xb204;&#xac00; &#xbd80;&#xb2f4;&#xd558;&#xb294;&#xc9c0;&#xb97c; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc54c;&#xae30; &#xc27d;&#xb3c4;&#xb85d; &#xba85;&#xd655;&#xd558;&#xac8c; &#xd45c;&#xc2dc;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;17&#xc870;(&#xac1c;&#xc778;&#xc815;&#xbcf4;&#xbcf4;&#xd638;)&#xa; &#xa;  &#x2460;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4; &#xc218;&#xc9d1;&#xc2dc; &#xc11c;&#xbe44;&#xc2a4;&#xc81c;&#xacf5;&#xc744; &#xc704;&#xd558;&#xc5ec; &#xd544;&#xc694;&#xd55c; &#xbc94;&#xc704;&#xc5d0;&#xc11c; &#xcd5c;&#xc18c;&#xd55c;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc218;&#xc9d1;&#xd569;&#xb2c8;&#xb2e4;. &#xa; &#xa;  &#x2461;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xd68c;&#xc6d0;&#xac00;&#xc785;&#xc2dc; &#xad6c;&#xb9e4;&#xacc4;&#xc57d;&#xc774;&#xd589;&#xc5d0; &#xd544;&#xc694;&#xd55c; &#xc815;&#xbcf4;&#xb97c; &#xbbf8;&#xb9ac; &#xc218;&#xc9d1;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xad00;&#xb828; &#xbc95;&#xb839;&#xc0c1; &#xc758;&#xbb34;&#xc774;&#xd589;&#xc744; &#xc704;&#xd558;&#xc5ec; &#xad6c;&#xb9e4;&#xacc4;&#xc57d; &#xc774;&#xc804;&#xc5d0; &#xbcf8;&#xc778;&#xd655;&#xc778;&#xc774; &#xd544;&#xc694;&#xd55c; &#xacbd;&#xc6b0;&#xb85c;&#xc11c; &#xcd5c;&#xc18c;&#xd55c;&#xc758; &#xd2b9;&#xc815; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc218;&#xc9d1;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xb7ec;&#xd558;&#xc9c0; &#xc544;&#xb2c8;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc218;&#xc9d1;&#xb7;&#xc774;&#xc6a9;&#xd558;&#xb294; &#xb54c;&#xc5d0;&#xb294; &#xb2f9;&#xd574; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xadf8; &#xbaa9;&#xc801;&#xc744; &#xace0;&#xc9c0;&#xd558;&#xace0; &#xb3d9;&#xc758;&#xb97c; &#xbc1b;&#xc2b5;&#xb2c8;&#xb2e4;. &#xa; &#xa;  &#x2463;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc218;&#xc9d1;&#xb41c; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xbaa9;&#xc801;&#xc678;&#xc758; &#xc6a9;&#xb3c4;&#xb85c; &#xc774;&#xc6a9;&#xd560; &#xc218; &#xc5c6;&#xc73c;&#xba70;, &#xc0c8;&#xb85c;&#xc6b4; &#xc774;&#xc6a9;&#xbaa9;&#xc801;&#xc774; &#xbc1c;&#xc0dd;&#xd55c; &#xacbd;&#xc6b0; &#xb610;&#xb294; &#xc81c;3&#xc790;&#xc5d0;&#xac8c; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc774;&#xc6a9;&#xb7;&#xc81c;&#xacf5;&#xb2e8;&#xacc4;&#xc5d0;&#xc11c; &#xb2f9;&#xd574; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xadf8; &#xbaa9;&#xc801;&#xc744; &#xace0;&#xc9c0;&#xd558;&#xace0; &#xb3d9;&#xc758;&#xb97c; &#xbc1b;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xad00;&#xb828; &#xbc95;&#xb839;&#xc5d0; &#xb2ec;&#xb9ac; &#xc815;&#xd568;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc608;&#xc678;&#xb85c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2464;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xc81c;3&#xd56d;&#xacfc; &#xc81c;4&#xd56d;&#xc5d0; &#xc758;&#xd574; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xb3d9;&#xc758;&#xb97c; &#xbc1b;&#xc544;&#xc57c; &#xd558;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xad00;&#xb9ac; &#xcc45;&#xc784;&#xc790;&#xc758; &#xc2e0;&#xc6d0;(&#xc18c;&#xc18d;, &#xc131;&#xba85; &#xbc0f; &#xc804;&#xd654;&#xbc88;&#xd638;, &#xae30;&#xd0c0; &#xc5f0;&#xb77d;&#xcc98;), &#xc815;&#xbcf4;&#xc758; &#xc218;&#xc9d1;&#xbaa9;&#xc801; &#xbc0f; &#xc774;&#xc6a9;&#xbaa9;&#xc801;, &#xc81c;3&#xc790;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xbcf4;&#xc81c;&#xacf5; &#xad00;&#xb828;&#xc0ac;&#xd56d;(&#xc81c;&#xacf5;&#xbc1b;&#xc740;&#xc790;, &#xc81c;&#xacf5;&#xbaa9;&#xc801; &#xbc0f; &#xc81c;&#xacf5;&#xd560; &#xc815;&#xbcf4;&#xc758; &#xb0b4;&#xc6a9;) &#xb4f1; &#x300c;&#xc815;&#xbcf4;&#xd1b5;&#xc2e0;&#xb9dd; &#xc774;&#xc6a9;&#xcd09;&#xc9c4; &#xbc0f; &#xc815;&#xbcf4;&#xbcf4;&#xd638; &#xb4f1;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d; &#xc81c;22&#xc870;&#xc81c;2&#xd56d;&#xc774; &#xaddc;&#xc815;&#xd55c; &#xc0ac;&#xd56d;&#xc744; &#xbbf8;&#xb9ac; &#xba85;&#xc2dc;&#xd558;&#xac70;&#xb098; &#xace0;&#xc9c0;&#xd574;&#xc57c; &#xd558;&#xba70; &#xc774;&#xc6a9;&#xc790;&#xb294; &#xc5b8;&#xc81c;&#xb4e0;&#xc9c0; &#xc774; &#xb3d9;&#xc758;&#xb97c; &#xcca0;&#xd68c;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2465; &#xc774;&#xc6a9;&#xc790;&#xb294; &#xc5b8;&#xc81c;&#xb4e0;&#xc9c0;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb294; &#xc790;&#xc2e0;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc5d0; &#xb300;&#xd574; &#xc5f4;&#xb78c; &#xbc0f; &#xc624;&#xb958;&#xc815;&#xc815;&#xc744; &#xc694;&#xad6c;&#xd560; &#xc218; &#xc788;&#xc73c;&#xba70;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc5d0; &#xb300;&#xd574; &#xc9c0;&#xccb4; &#xc5c6;&#xc774; &#xd544;&#xc694;&#xd55c; &#xc870;&#xce58;&#xb97c; &#xcde8;&#xd560; &#xc758;&#xbb34;&#xb97c; &#xc9d1;&#xb2c8;&#xb2e4;. &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc624;&#xb958;&#xc758; &#xc815;&#xc815;&#xc744; &#xc694;&#xad6c;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xadf8; &#xc624;&#xb958;&#xb97c; &#xc815;&#xc815;&#xd560; &#xb54c;&#xae4c;&#xc9c0; &#xb2f9;&#xd574; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2466;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xac1c;&#xc778;&#xc815;&#xbcf4; &#xbcf4;&#xd638;&#xb97c; &#xc704;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xcde8;&#xae09;&#xd558;&#xb294; &#xc790;&#xb97c;  &#xcd5c;&#xc18c;&#xd55c;&#xc73c;&#xb85c; &#xc81c;&#xd55c;&#xd558;&#xc5ec;&#xc57c; &#xd558;&#xba70; &#xc2e0;&#xc6a9;&#xce74;&#xb4dc;, &#xc740;&#xd589;&#xacc4;&#xc88c; &#xb4f1;&#xc744; &#xd3ec;&#xd568;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc758; &#xbd84;&#xc2e4;, &#xb3c4;&#xb09c;, &#xc720;&#xcd9c;, &#xb3d9;&#xc758; &#xc5c6;&#xb294; &#xc81c;3&#xc790; &#xc81c;&#xacf5;, &#xbcc0;&#xc870; &#xb4f1;&#xc73c;&#xb85c; &#xc778;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc190;&#xd574;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#xbaa8;&#xb4e0; &#xcc45;&#xc784;&#xc744; &#xc9d1;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2467;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot; &#xb610;&#xb294; &#xadf8;&#xb85c;&#xbd80;&#xd130; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc81c;&#xacf5;&#xbc1b;&#xc740; &#xc81c;3&#xc790;&#xb294; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc758; &#xc218;&#xc9d1;&#xbaa9;&#xc801; &#xb610;&#xb294; &#xc81c;&#xacf5;&#xbc1b;&#xc740; &#xbaa9;&#xc801;&#xc744; &#xb2ec;&#xc131;&#xd55c; &#xb54c;&#xc5d0;&#xb294; &#xb2f9;&#xd574; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xb97c; &#xc9c0;&#xccb4; &#xc5c6;&#xc774; &#xd30c;&#xae30;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2468;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc758; &#xc218;&#xc9d1;&#xb7;&#xc774;&#xc6a9;&#xb7;&#xc81c;&#xacf5;&#xc5d0; &#xad00;&#xd55c; &#xb3d9;&#xc758;&#xb780;&#xc744; &#xbbf8;&#xb9ac; &#xc120;&#xd0dd;&#xd55c; &#xac83;&#xc73c;&#xb85c; &#xc124;&#xc815;&#xd574;&#xb450;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb610;&#xd55c; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc758; &#xc218;&#xc9d1;&#xb7;&#xc774;&#xc6a9;&#xb7;&#xc81c;&#xacf5;&#xc5d0; &#xad00;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xb3d9;&#xc758;&#xac70;&#xc808;&#xc2dc; &#xc81c;&#xd55c;&#xb418;&#xb294; &#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xad6c;&#xccb4;&#xc801;&#xc73c;&#xb85c; &#xba85;&#xc2dc;&#xd558;&#xace0;, &#xd544;&#xc218;&#xc218;&#xc9d1;&#xd56d;&#xbaa9;&#xc774; &#xc544;&#xb2cc; &#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc758; &#xc218;&#xc9d1;&#xb7;&#xc774;&#xc6a9;&#xb7;&#xc81c;&#xacf5;&#xc5d0; &#xad00;&#xd55c; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xb3d9;&#xc758; &#xac70;&#xc808;&#xc744; &#xc774;&#xc720;&#xb85c; &#xd68c;&#xc6d0;&#xac00;&#xc785; &#xb4f1; &#xc11c;&#xbe44;&#xc2a4; &#xc81c;&#xacf5;&#xc744; &#xc81c;&#xd55c;&#xd558;&#xac70;&#xb098; &#xac70;&#xc808;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;18&#xc870;(&#x201c;&#xbab0;&#x201c;&#xc758; &#xc758;&#xbb34;)&#xa; &#xa;  &#x2460;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xbc95;&#xb839;&#xacfc; &#xc774; &#xc57d;&#xad00;&#xc774; &#xae08;&#xc9c0;&#xd558;&#xac70;&#xb098; &#xacf5;&#xc11c;&#xc591;&#xc18d;&#xc5d0; &#xbc18;&#xd558;&#xb294; &#xd589;&#xc704;&#xb97c; &#xd558;&#xc9c0; &#xc54a;&#xc73c;&#xba70; &#xc774; &#xc57d;&#xad00;&#xc774; &#xc815;&#xd558;&#xb294; &#xbc14;&#xc5d0; &#xb530;&#xb77c; &#xc9c0;&#xc18d;&#xc801;&#xc774;&#xace0;, &#xc548;&#xc815;&#xc801;&#xc73c;&#xb85c; &#xc7ac;&#xd654;&#x2024;&#xc6a9;&#xc5ed;&#xc744; &#xc81c;&#xacf5;&#xd558;&#xb294;&#xb370; &#xcd5c;&#xc120;&#xc744; &#xb2e4;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc548;&#xc804;&#xd558;&#xac8c; &#xc778;&#xd130;&#xb137; &#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xc774;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xac1c;&#xc778;&#xc815;&#xbcf4;(&#xc2e0;&#xc6a9;&#xc815;&#xbcf4; &#xd3ec;&#xd568;)&#xbcf4;&#xd638;&#xb97c; &#xc704;&#xd55c; &#xbcf4;&#xc548; &#xc2dc;&#xc2a4;&#xd15c;&#xc744; &#xac16;&#xcd94;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xc0c1;&#xd488;&#xc774;&#xb098; &#xc6a9;&#xc5ed;&#xc5d0; &#xb300;&#xd558;&#xc5ec; &#x300c;&#xd45c;&#xc2dc;&#x2024;&#xad11;&#xace0;&#xc758; &#xacf5;&#xc815;&#xd654;&#xc5d0; &#xad00;&#xd55c; &#xbc95;&#xb960;&#x300d; &#xc81c;3&#xc870; &#xc18c;&#xc815;&#xc758; &#xbd80;&#xb2f9;&#xd55c; &#xd45c;&#xc2dc;&#x2024;&#xad11;&#xace0;&#xd589;&#xc704;&#xb97c; &#xd568;&#xc73c;&#xb85c;&#xc368; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc190;&#xd574;&#xb97c; &#xc785;&#xc740; &#xb54c;&#xc5d0;&#xb294; &#xc774;&#xb97c; &#xbc30;&#xc0c1;&#xd560; &#xcc45;&#xc784;&#xc744; &#xc9d1;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2463;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc6d0;&#xd558;&#xc9c0; &#xc54a;&#xb294; &#xc601;&#xb9ac;&#xbaa9;&#xc801;&#xc758; &#xad11;&#xace0;&#xc131; &#xc804;&#xc790;&#xc6b0;&#xd3b8;&#xc744; &#xbc1c;&#xc1a1;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;19&#xc870;(&#xd68c;&#xc6d0;&#xc758; ID &#xbc0f; &#xbe44;&#xbc00;&#xbc88;&#xd638;&#xc5d0; &#xb300;&#xd55c; &#xc758;&#xbb34;)&#xa; &#xa;  &#x2460; &#xc81c;17&#xc870;&#xc758; &#xacbd;&#xc6b0;&#xb97c; &#xc81c;&#xc678;&#xd55c; ID&#xc640; &#xbe44;&#xbc00;&#xbc88;&#xd638;&#xc5d0; &#xad00;&#xd55c; &#xad00;&#xb9ac;&#xcc45;&#xc784;&#xc740; &#xd68c;&#xc6d0;&#xc5d0;&#xac8c; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#xd68c;&#xc6d0;&#xc740; &#xc790;&#xc2e0;&#xc758; ID &#xbc0f; &#xbe44;&#xbc00;&#xbc88;&#xd638;&#xb97c; &#xc81c;3&#xc790;&#xc5d0;&#xac8c; &#xc774;&#xc6a9;&#xd558;&#xac8c; &#xd574;&#xc11c;&#xb294; &#xc548;&#xb429;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462; &#xd68c;&#xc6d0;&#xc774; &#xc790;&#xc2e0;&#xc758; ID &#xbc0f; &#xbe44;&#xbc00;&#xbc88;&#xd638;&#xb97c; &#xb3c4;&#xb09c;&#xb2f9;&#xd558;&#xac70;&#xb098; &#xc81c;3&#xc790;&#xac00; &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc74c;&#xc744; &#xc778;&#xc9c0;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xbc14;&#xb85c;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc5d0; &#xd1b5;&#xbcf4;&#xd558;&#xace0;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc758; &#xc548;&#xb0b4;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8;&#xc5d0; &#xb530;&#xb77c;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;20&#xc870;(&#xc774;&#xc6a9;&#xc790;&#xc758; &#xc758;&#xbb34;) &#xc774;&#xc6a9;&#xc790;&#xb294; &#xb2e4;&#xc74c; &#xd589;&#xc704;&#xb97c; &#xd558;&#xc5ec;&#xc11c;&#xb294; &#xc548; &#xb429;&#xb2c8;&#xb2e4;.&#xa; &#xa;    1. &#xc2e0;&#xccad; &#xb610;&#xb294; &#xbcc0;&#xacbd;&#xc2dc; &#xd5c8;&#xc704; &#xb0b4;&#xc6a9;&#xc758; &#xb4f1;&#xb85d;&#xa;    2. &#xd0c0;&#xc778;&#xc758; &#xc815;&#xbcf4; &#xb3c4;&#xc6a9;&#xa;    3.&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc5d0; &#xac8c;&#xc2dc;&#xb41c; &#xc815;&#xbcf4;&#xc758; &#xbcc0;&#xacbd;&#xa;    4.&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xc815;&#xd55c; &#xc815;&#xbcf4; &#xc774;&#xc678;&#xc758; &#xc815;&#xbcf4;(&#xcef4;&#xd4e8;&#xd130; &#xd504;&#xb85c;&#xadf8;&#xb7a8; &#xb4f1;) &#xb4f1;&#xc758; &#xc1a1;&#xc2e0; &#xb610;&#xb294; &#xac8c;&#xc2dc;&#xa;    5.&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot; &#xae30;&#xd0c0; &#xc81c;3&#xc790;&#xc758; &#xc800;&#xc791;&#xad8c; &#xb4f1; &#xc9c0;&#xc801;&#xc7ac;&#xc0b0;&#xad8c;&#xc5d0; &#xb300;&#xd55c; &#xce68;&#xd574;&#xa;    6.&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot; &#xae30;&#xd0c0; &#xc81c;3&#xc790;&#xc758; &#xba85;&#xc608;&#xb97c; &#xc190;&#xc0c1;&#xc2dc;&#xd0a4;&#xac70;&#xb098; &#xc5c5;&#xbb34;&#xb97c; &#xbc29;&#xd574;&#xd558;&#xb294; &#xd589;&#xc704;&#xa;    7. &#xc678;&#xc124; &#xb610;&#xb294; &#xd3ed;&#xb825;&#xc801;&#xc778; &#xba54;&#xc2dc;&#xc9c0;, &#xd654;&#xc0c1;, &#xc74c;&#xc131;, &#xae30;&#xd0c0; &#xacf5;&#xc11c;&#xc591;&#xc18d;&#xc5d0; &#xbc18;&#xd558;&#xb294; &#xc815;&#xbcf4;&#xb97c; &#xbab0;&#xc5d0; &#xacf5;&#xac1c; &#xb610;&#xb294; &#xac8c;&#xc2dc;&#xd558;&#xb294; &#xd589;&#xc704;&#xa; &#xa;&#xc81c;21&#xc870;(&#xc5f0;&#xacb0;&#x201c;&#xbab0;&#x201d;&#xacfc; &#xd53c;&#xc5f0;&#xacb0;&#x201c;&#xbab0;&#x201d; &#xac04;&#xc758; &#xad00;&#xacc4;)&#xa; &#xa;  &#x2460; &#xc0c1;&#xc704;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xacfc; &#xd558;&#xc704;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc774; &#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c;(&#xc608;: &#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c;&#xc758; &#xb300;&#xc0c1;&#xc5d0;&#xb294; &#xbb38;&#xc790;, &#xadf8;&#xb9bc; &#xbc0f; &#xb3d9;&#xd654;&#xc0c1; &#xb4f1;&#xc774; &#xd3ec;&#xd568;&#xb428;)&#xbc29;&#xc2dd; &#xb4f1;&#xc73c;&#xb85c; &#xc5f0;&#xacb0;&#xb41c; &#xacbd;&#xc6b0;, &#xc804;&#xc790;&#xb97c; &#xc5f0;&#xacb0;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;(&#xc774;&#xd558; &#xd504;&#xb85c;&#xadf8;&#xb7a8;)&#xc774;&#xb77c;&#xace0; &#xd558;&#xace0; &#xd6c4;&#xc790;&#xb97c; &#xd53c;&#xc5f0;&#xacb0;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;(&#xd504;&#xb85c;&#xadf8;&#xb7a8;)&#xc774;&#xb77c;&#xace0; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#xc5f0;&#xacb0;&#x201c;&#xbab0;&#x201d;&#xc740; &#xd53c;&#xc5f0;&#xacb0;&#x201c;&#xbab0;&#x201d;&#xc774; &#xb3c5;&#xc790;&#xc801;&#xc73c;&#xb85c; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xc7ac;&#xd654; &#xb4f1;&#xc5d0; &#xc758;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790;&#xc640; &#xd589;&#xd558;&#xb294; &#xac70;&#xb798;&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xbcf4;&#xc99d; &#xcc45;&#xc784;&#xc744; &#xc9c0;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;&#xb294; &#xb73b;&#xc744; &#xc5f0;&#xacb0;&#x201c;&#xbab0;&#x201d;&#xc758; &#xcd08;&#xae30;&#xd654;&#xba74; &#xb610;&#xb294; &#xc5f0;&#xacb0;&#xb418;&#xb294; &#xc2dc;&#xc810;&#xc758; &#xd31d;&#xc5c5;&#xd654;&#xba74;&#xc73c;&#xb85c; &#xba85;&#xc2dc;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xadf8; &#xac70;&#xb798;&#xc5d0; &#xb300;&#xd55c; &#xbcf4;&#xc99d; &#xcc45;&#xc784;&#xc744; &#xc9c0;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;22&#xc870;(&#xc800;&#xc791;&#xad8c;&#xc758; &#xadc0;&#xc18d; &#xbc0f; &#xc774;&#xc6a9;&#xc81c;&#xd55c;)&#xa; &#xa;  &#x2460; &#x201c;&#xbab0;&#x201c;&#xc774; &#xc791;&#xc131;&#xd55c; &#xc800;&#xc791;&#xbb3c;&#xc5d0; &#xb300;&#xd55c; &#xc800;&#xc791;&#xad8c; &#xae30;&#xd0c0; &#xc9c0;&#xc801;&#xc7ac;&#xc0b0;&#xad8c;&#xc740; &#x201d;&#xbab0;&#x201c;&#xc5d0; &#xadc0;&#xc18d;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461; &#xc774;&#xc6a9;&#xc790;&#xb294;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc744; &#xc774;&#xc6a9;&#xd568;&#xc73c;&#xb85c;&#xc368; &#xc5bb;&#xc740; &#xc815;&#xbcf4; &#xc911;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc5d0;&#xac8c; &#xc9c0;&#xc801;&#xc7ac;&#xc0b0;&#xad8c;&#xc774; &#xadc0;&#xc18d;&#xb41c; &#xc815;&#xbcf4;&#xb97c;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc758; &#xc0ac;&#xc804; &#xc2b9;&#xb099; &#xc5c6;&#xc774; &#xbcf5;&#xc81c;, &#xc1a1;&#xc2e0;, &#xcd9c;&#xd310;, &#xbc30;&#xd3ec;, &#xbc29;&#xc1a1; &#xae30;&#xd0c0; &#xbc29;&#xbc95;&#xc5d0; &#xc758;&#xd558;&#xc5ec; &#xc601;&#xb9ac;&#xbaa9;&#xc801;&#xc73c;&#xb85c; &#xc774;&#xc6a9;&#xd558;&#xac70;&#xb098; &#xc81c;3&#xc790;&#xc5d0;&#xac8c; &#xc774;&#xc6a9;&#xd558;&#xac8c; &#xd558;&#xc5ec;&#xc11c;&#xb294; &#xc548;&#xb429;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc57d;&#xc815;&#xc5d0; &#xb530;&#xb77c; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xadc0;&#xc18d;&#xb41c; &#xc800;&#xc791;&#xad8c;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xacbd;&#xc6b0; &#xb2f9;&#xd574; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xd1b5;&#xbcf4;&#xd558;&#xc5ec;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;23&#xc870;(&#xbd84;&#xc7c1;&#xd574;&#xacb0;)&#xa; &#xa;  &#x2460;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xac00; &#xc81c;&#xae30;&#xd558;&#xb294; &#xc815;&#xb2f9;&#xd55c; &#xc758;&#xacac;&#xc774;&#xb098; &#xbd88;&#xb9cc;&#xc744; &#xbc18;&#xc601;&#xd558;&#xace0; &#xadf8; &#xd53c;&#xd574;&#xb97c; &#xbcf4;&#xc0c1;&#xcc98;&#xb9ac;&#xd558;&#xae30; &#xc704;&#xd558;&#xc5ec; &#xd53c;&#xd574;&#xbcf4;&#xc0c1;&#xcc98;&#xb9ac;&#xae30;&#xad6c;&#xb97c; &#xc124;&#xce58;&#x2024;&#xc6b4;&#xc601;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xc740; &#xc774;&#xc6a9;&#xc790;&#xb85c;&#xbd80;&#xd130; &#xc81c;&#xcd9c;&#xb418;&#xb294; &#xbd88;&#xb9cc;&#xc0ac;&#xd56d; &#xbc0f; &#xc758;&#xacac;&#xc740; &#xc6b0;&#xc120;&#xc801;&#xc73c;&#xb85c; &#xadf8; &#xc0ac;&#xd56d;&#xc744; &#xcc98;&#xb9ac;&#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xc2e0;&#xc18d;&#xd55c; &#xcc98;&#xb9ac;&#xac00; &#xace4;&#xb780;&#xd55c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xc774;&#xc6a9;&#xc790;&#xc5d0;&#xac8c; &#xadf8; &#xc0ac;&#xc720;&#xc640; &#xcc98;&#xb9ac;&#xc77c;&#xc815;&#xc744; &#xc989;&#xc2dc; &#xd1b5;&#xbcf4;&#xd574; &#xb4dc;&#xb9bd;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2462;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xacfc; &#xc774;&#xc6a9;&#xc790; &#xac04;&#xc5d0; &#xbc1c;&#xc0dd;&#xd55c; &#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xbd84;&#xc7c1;&#xacfc; &#xad00;&#xb828;&#xd558;&#xc5ec; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xd53c;&#xd574;&#xad6c;&#xc81c;&#xc2e0;&#xccad;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xacf5;&#xc815;&#xac70;&#xb798;&#xc704;&#xc6d0;&#xd68c; &#xb610;&#xb294; &#xc2dc;&#xb7;&#xb3c4;&#xc9c0;&#xc0ac;&#xac00; &#xc758;&#xb8b0;&#xd558;&#xb294; &#xbd84;&#xc7c1;&#xc870;&#xc815;&#xae30;&#xad00;&#xc758; &#xc870;&#xc815;&#xc5d0; &#xb530;&#xb97c; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.&#xa; &#xa;&#xc81c;24&#xc870;(&#xc7ac;&#xd310;&#xad8c; &#xbc0f; &#xc900;&#xac70;&#xbc95;)&#xa; &#xa;  &#x2460;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xacfc; &#xc774;&#xc6a9;&#xc790; &#xac04;&#xc5d0; &#xbc1c;&#xc0dd;&#xd55c; &#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xbd84;&#xc7c1;&#xc5d0; &#xad00;&#xd55c; &#xc18c;&#xc1a1;&#xc740; &#xc81c;&#xc18c; &#xb2f9;&#xc2dc;&#xc758; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc8fc;&#xc18c;&#xc5d0; &#xc758;&#xd558;&#xace0;, &#xc8fc;&#xc18c;&#xac00; &#xc5c6;&#xb294; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xac70;&#xc18c;&#xb97c; &#xad00;&#xd560;&#xd558;&#xb294; &#xc9c0;&#xbc29;&#xbc95;&#xc6d0;&#xc758; &#xc804;&#xc18d;&#xad00;&#xd560;&#xb85c; &#xd569;&#xb2c8;&#xb2e4;. &#xb2e4;&#xb9cc;, &#xc81c;&#xc18c; &#xb2f9;&#xc2dc; &#xc774;&#xc6a9;&#xc790;&#xc758; &#xc8fc;&#xc18c; &#xb610;&#xb294; &#xac70;&#xc18c;&#xac00; &#xbd84;&#xba85;&#xd558;&#xc9c0; &#xc54a;&#xac70;&#xb098; &#xc678;&#xad6d; &#xac70;&#xc8fc;&#xc790;&#xc758; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xbbfc;&#xc0ac;&#xc18c;&#xc1a1;&#xbc95;&#xc0c1;&#xc758; &#xad00;&#xd560;&#xbc95;&#xc6d0;&#xc5d0; &#xc81c;&#xae30;&#xd569;&#xb2c8;&#xb2e4;.&#xa; &#xa;  &#x2461;&quot;PC&#xbc29; &#xad00;&#xb9ac; &#xc708;&#xb3c4;&#xc6b0; &#xc6b4;&#xc601;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&quot;&#xacfc; &#xc774;&#xc6a9;&#xc790; &#xac04;&#xc5d0; &#xc81c;&#xae30;&#xb41c; &#xc804;&#xc790;&#xc0c1;&#xac70;&#xb798; &#xc18c;&#xc1a1;&#xc5d0;&#xb294; &#xd55c;&#xad6d;&#xbc95;&#xc744; &#xc801;&#xc6a9;&#xd569;&#xb2c8;&#xb2e4;.&#xa; "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="* &#xc774;&#xc6a9;&#xc57d;&#xad00;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chk_sign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xac1c;&#xc778;&#xc815;&#xbcf4;&#xc758; &#xc218;&#xc9d1; &#xbc0f; &#xc774;&#xc6a9;&#xc548;&#xb0b4;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chk_signActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
